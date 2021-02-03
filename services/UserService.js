@@ -5,7 +5,6 @@ const userservice = {
   
   getList: async function () {
     try {
-
         const userlist = await UserList.query();
         return { status: 200, userlist };
 
