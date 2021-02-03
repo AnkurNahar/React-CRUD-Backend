@@ -1,0 +1,19 @@
+{
+  "name": "trucktask",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "joi": "^14.3.1",
+    "dotenv": "^8.2.0",
+    "knex": "^0.21.6",
+    "objection": "^2.2.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "bcrypt": "^5.0.0"
+  }
+}
